@@ -790,7 +790,7 @@ EOF
 
     # 3. Конфиг под VoIP    
     cat <<EOF > "$DHCP_CONF"
-# Оптимизировано @YOUR_TELEGRAM_SUPPORT для VoIP и стабильной работы офиса
+# Оптимизировано @MrGrando для VoIP и стабильной работы офиса
 default-lease-time 604800;
 max-lease-time 604800;
 authoritative;
@@ -1792,7 +1792,7 @@ echo -e "${BLUE}      JP7~~^^~.     .J?   J#7?J7  ^J.  7!          .JJ   .7???! 
 echo -e "${BLUE}       :~!77!~            7P             :??????J^                                                  ${NC}"
 echo ""
 echo -e "${YELLOW}================================================================${NC}"
-echo -e "   VPN-Panel от @YOUR_TELEGRAM_SUPPORT (v2.5.5)"
+echo -e "   VPN-Panel от @MrGrando (v2.5.5)"
 echo -e "${YELLOW}================================================================${NC}"
 echo -e "   Статус сервера: $CURRENT_STATUS"
 echo ""
@@ -1922,7 +1922,7 @@ if [ "$ROUTING_MODE" == "VPN" ]; then
 fi
 echo ""
 echo "Спасибо за использование vpn.sh (v2.5.5)!"
-echo "Обращайтесь за помощью в телеграмм @YOUR_TELEGRAM_SUPPORT"
+echo "Обращайтесь за помощью в телеграмм @MrGrando"
 
 exit 0
 
